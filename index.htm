@@ -1,0 +1,714 @@
+<!DOCTYPE html>
+<html class=" responsive DesktopUI" lang="en">
+  <head>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    <meta name="viewport" content="width=device-width,initial-scale=1">
+    <meta name="theme-color" content="#171a21">
+    <title>The Coffin of Andy and Leyley - Happy Halloween! - Steam News</title>
+    <link rel="shortcut icon" href="https://store.steampowered.com/favicon.ico" type="image/x-icon">
+    <link href="index_files/motiva_sans.css" rel="stylesheet" type="text/css">
+    <link href="index_files/shared_global.css" rel="stylesheet" type="text/css">
+    <link href="index_files/buttons.css" rel="stylesheet" type="text/css">
+    <link href="index_files/store.css" rel="stylesheet" type="text/css">
+    <link href="index_files/events_hub.css" rel="stylesheet" type="text/css">
+    <link href="index_files/shared_responsive.css" rel="stylesheet" type="text/css">
+    <script type="text/javascript" src="index_files/jquery-1.8.3.min.js"></script>
+    <script type="text/javascript">
+      $J = jQuery.noConflict();
+    </script>
+    <script type="text/javascript">
+      VALVE_PUBLIC_PATH = "https:\/\/store.fastly.steamstatic.com\/public\/";
+    </script>
+    <script type="text/javascript" src="index_files/tooltip.js"></script>
+    <script type="text/javascript" src="index_files/shared_global.js"></script>
+    <script type="text/javascript" src="index_files/auth_refresh.js"></script>
+    <script type="text/javascript" src="index_files/main_002.js"></script>
+    <script type="text/javascript" src="index_files/dynamicstore.js"></script>
+    <script type="text/javascript">
+      Object.seal && [Object, Array, String, Number].map(function(builtin) {
+        Object.seal(builtin.prototype);
+      });
+    </script>
+    <script type="text/javascript">
+      document.addEventListener('DOMContentLoaded', function(event) {
+        $J.data(document, 'x_readytime', new Date().getTime());
+        $J.data(document, 'x_oldref', GetNavCookie());
+        SetupTooltips({
+          tooltipCSSClass: 'store_tooltip'
+        });
+      });
+    </script>
+    <script type="text/javascript" src="index_files/shared_responsive_adapter.js"></script>
+    <meta name="twitter:card" content="summary_large_image">
+    <meta name="Description" content="The long-awaited Halloween devlog.">
+    <meta name="twitter:site" content="@steam">
+    <meta property="og:title" content="The Coffin of Andy and Leyley - Happy Halloween! - Steam News">
+    <meta property="twitter:title" content="The Coffin of Andy and Leyley - Happy Halloween! - Steam News">
+    <meta property="og:type" content="article">
+    <meta property="fb:app_id" content="105386699540688">
+    <meta property="og:site" content="Steam">
+    <meta property="og:description" content="The long-awaited Halloween devlog.">
+    <meta property="twitter:description" content="The long-awaited Halloween devlog.">
+    <meta property="article:published_time" content="2025-06-01T00:00:05-07:00">
+    <meta property="article:modified_time" content="2025-08-10T18:00:48-07:00">
+    <meta property="og:url" content="https://onehalf.dev/coffinposting">
+    <link rel="canonical" href="https://onehalf.dev/coffinposting">
+    <link rel="image_src" href="https://files.catbox.moe/xmf10l.png">
+    <meta property="og:image" content="https://files.catbox.moe/xmf10l.png">
+    <meta name="twitter:image" content="https://files.catbox.moe/xmf10l.png">
+    <link rel="stylesheet" type="text/css" href="index_files/7436.css">
+    <link rel="stylesheet" type="text/css" href="index_files/7048.css">
+    <link rel="stylesheet" type="text/css" href="index_files/1677.css">
+    <link rel="stylesheet" type="text/css" href="index_files/chunk~83b6e1e6c.css">
+    <link rel="stylesheet" type="text/css" href="index_files/chunk~4e1b7930f.css">
+    <link rel="stylesheet" type="text/css" href="index_files/chunk~16cbe8ea0.css">
+    <link rel="stylesheet" type="text/css" href="index_files/chunk~85c057f7d.css">
+    <link rel="stylesheet" type="text/css" href="index_files/chunk~6026e71fe.css">
+    <link rel="stylesheet" type="text/css" href="index_files/events.css">
+    <style type="text/css">
+      * {
+        <br>-webkit-user-select: text !important;
+        <br>-moz-user-select: text !important;
+        <br>-ms-user-select: text !important;
+        <br>user-select: text !important;
+        <br>
+      }
+      a, [role="button"], [role="link"], [onclick] {
+        pointer-events: none;
+        cursor: default;
+      }
+    </style>
+  </head>
+  <body class="v6 partner_events responsive_page">
+    <div class="responsive_page_frame with_header">
+      <div role="navigation" class="responsive_page_menu_ctn mainmenu" aria-label="Mobile Menu">
+        <div class="responsive_page_menu" id="responsive_page_menu">
+          <div class="mainmenu_contents">
+            <div class="mainmenu_contents_items">
+              <a class="menuitem" href="https://store.steampowered.com/login/?redir=news%2Fapp%2F2378900%2Fview%2F523092648628585985&amp;redir_ssl=1&amp;snr=1_2108_9__global-header"> Login </a>
+              <a class="menuitem supernav supernav_active" href="https://store.steampowered.com/?snr=1_2108_9__global-responsive-menu" data-tooltip-type="selector" data-tooltip-content=".submenu_Store"> Store </a>
+              <div class="submenu_Store" style="display: none;" data-submenuid="Store">
+                <a class="submenuitem" href="https://store.steampowered.com/?snr=1_2108_9__global-responsive-menu"> Home </a>
+                <a class="submenuitem" href="https://store.steampowered.com/explore/?snr=1_2108_9__global-responsive-menu"> Discovery Queue </a>
+                <a class="submenuitem" href="https://steamcommunity.com/my/wishlist/"> Wishlist </a>
+                <a class="submenuitem" href="https://store.steampowered.com/points/shop/?snr=1_2108_9__global-responsive-menu"> Points Shop </a>
+                <a class="submenuitem" href="https://store.steampowered.com/news/?snr=1_2108_9__global-responsive-menu"> News </a>
+                <a class="submenuitem" href="https://store.steampowered.com/stats/?snr=1_2108_9__global-responsive-menu"> Stats </a>
+              </div>
+              <a class="menuitem supernav" href="https://steamcommunity.com/" data-tooltip-type="selector" data-tooltip-content=".submenu_Community"> Community </a>
+              <div class="submenu_Community" style="display: none;" data-submenuid="Community">
+                <a class="submenuitem" href="https://steamcommunity.com/"> Home </a>
+                <a class="submenuitem" href="https://steamcommunity.com/discussions/"> Discussions </a>
+                <a class="submenuitem" href="https://steamcommunity.com/workshop/"> Workshop </a>
+                <a class="submenuitem" href="https://steamcommunity.com/market/"> Market </a>
+                <a class="submenuitem" href="https://steamcommunity.com/?subsection=broadcasts"> Broadcasts </a>
+              </div>
+              <a class="menuitem " href="https://store.steampowered.com/about/?snr=1_2108_9__global-responsive-menu"> About </a>
+              <a class="menuitem " href="https://help.steampowered.com/en/"> Support </a>
+              <div class="minor_menu_items">
+                <div class="menuitem change_language_action"> Change language </div>
+                <a class="menuitem" href="https://store.steampowered.com/mobile" target="_blank" rel="noreferrer">Get the Steam Mobile App</a>
+                <div class="menuitem" role="link" onclick="Responsive_RequestDesktopView();"> View desktop website </div>
+              </div>
+            </div>
+            <div class="mainmenu_footer_spacer  "></div>
+            <div class="mainmenu_footer">
+              <div class="mainmenu_footer_logo">
+                <img src="index_files/footerLogo_valve_new.png">
+              </div> © Valve Corporation. All rights reserved. All trademarks are property of their respective owners in the US and other countries. <span class="mainmenu_valve_links">
+                <a href="https://store.steampowered.com/privacy_agreement/?snr=1_2108_9__global-responsive-menu" target="_blank">Privacy Policy</a> &nbsp;| &nbsp; <a href="http://www.valvesoftware.com/legal.htm" target="_blank">Legal</a> &nbsp;| &nbsp; <a href="https://help.steampowered.com/faqs/view/10BB-D27A-6378-4436" target="_blank">Accessibility</a> &nbsp;| &nbsp; <a href="https://store.steampowered.com/subscriber_agreement/?snr=1_2108_9__global-responsive-menu" target="_blank">Steam Subscriber Agreement</a> &nbsp;| &nbsp; <a href="https://store.steampowered.com/steam_refunds/?snr=1_2108_9__global-responsive-menu" target="_blank">Refunds</a>
+              </span>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="responsive_local_menu_tab"></div>
+      <div class="responsive_page_menu_ctn localmenu">
+        <div class="responsive_page_menu" id="responsive_page_local_menu" data-panel="{&quot;onOptionsActionDescription&quot;:&quot;Filter&quot;,&quot;onOptionsButton&quot;:&quot;Responsive_ToggleLocalMenu()&quot;,&quot;onCancelButton&quot;:&quot;Responsive_ToggleLocalMenu()&quot;}">
+          <div class="localmenu_content" data-panel="{&quot;maintainY&quot;:true,&quot;bFocusRingRoot&quot;:true,&quot;flow-children&quot;:&quot;column&quot;}"></div>
+        </div>
+      </div>
+      <div class="responsive_header">
+        <div class="responsive_header_content">
+          <div id="responsive_menu_logo">
+            <img src="index_files/header_menu_hamburger.png" height="100%">
+          </div>
+          <div class="responsive_header_logo">
+            <a href="https://store.steampowered.com/?snr=1_2108_9__global-responsive-menu">
+              <img src="index_files/header_logo.png" height="36" border="0" alt="STEAM">
+            </a>
+          </div>
+        </div>
+      </div>
+      <div class="responsive_page_content_overlay"></div>
+      <div class="responsive_fixonscroll_ctn nonresponsive_hidden "></div>
+      <div class="responsive_page_content">
+        <div role="banner" id="global_header" data-panel="{&quot;flow-children&quot;:&quot;row&quot;}">
+          <div class="content">
+            <div class="logo">
+              <span id="logo_holder">
+                <a href="https://store.steampowered.com/?snr=1_2108_9__global-header" aria-label="Link to the Steam Homepage">
+                  <img src="index_files/logo_steam.svg" width="176" height="44" alt="Link to the Steam Homepage">
+                </a>
+              </span>
+            </div>
+            <div role="navigation" class="supernav_container" aria-label="Global Menu">
+              <a class="menuitem supernav supernav_active" href="https://store.steampowered.com/?snr=1_2108_9__global-header" data-tooltip-type="selector" data-tooltip-content=".submenu_Store" aria-describedby="tooltip-0"> STORE </a>
+              <a class="menuitem supernav" href="https://steamcommunity.com/" data-tooltip-type="selector" data-tooltip-content=".submenu_Community" aria-describedby="tooltip-1"> COMMUNITY </a>
+              <a class="menuitem " href="https://store.steampowered.com/about/?snr=1_2108_9__global-header"> About </a>
+              <a class="menuitem " href="https://help.steampowered.com/en/"> SUPPORT </a>
+              <div style="position: absolute; z-index: 1500; opacity: 0; left: 66.2334px; top: 67px; pointer-events: none;" class="supernav_content" id="tooltip-1">
+                <div class="submenu_Community" style="" data-submenuid="Community">
+                  <a class="submenuitem" href="https://steamcommunity.com/"> Home </a>
+                  <a class="submenuitem" href="https://steamcommunity.com/discussions/"> Discussions </a>
+                  <a class="submenuitem" href="https://steamcommunity.com/workshop/"> Workshop </a>
+                  <a class="submenuitem" href="https://steamcommunity.com/market/"> Market </a>
+                  <a class="submenuitem" href="https://steamcommunity.com/?subsection=broadcasts"> Broadcasts </a>
+                </div>
+              </div>
+              <div style="position: absolute; z-index: 1500; opacity: 0; left: 1px; top: 67px; pointer-events: none;" class="supernav_content" id="tooltip-0">
+                <div class="submenu_Store" style="" data-submenuid="Store">
+                  <a class="submenuitem" href="https://store.steampowered.com/?snr=1_2108_9__global-header"> Home </a>
+                  <a class="submenuitem" href="https://store.steampowered.com/explore/?snr=1_2108_9__global-header"> Discovery Queue </a>
+                  <a class="submenuitem" href="https://steamcommunity.com/my/wishlist/"> Wishlist </a>
+                  <a class="submenuitem" href="https://store.steampowered.com/points/shop/?snr=1_2108_9__global-header"> Points Shop </a>
+                  <a class="submenuitem" href="https://store.steampowered.com/news/?snr=1_2108_9__global-header"> News </a>
+                  <a class="submenuitem" href="https://store.steampowered.com/stats/?snr=1_2108_9__global-header"> Stats </a>
+                </div>
+              </div>
+            </div>
+            <script type="text/javascript">
+              jQuery(function($) {
+                $('#global_header .supernav').v_tooltip({
+                  'location': 'bottom',
+                  'destroyWhenDone': false,
+                  'tooltipClass': 'supernav_content',
+                  'offsetY': -6,
+                  'offsetX': 1,
+                  'horizontalSnap': 4,
+                  'tooltipParent': '#global_header .supernav_container',
+                  'correctForScreenSize': false
+                });
+              });
+            </script>
+          </div>
+        </div>
+        <div id="responsive_store_nav_ctn"></div>
+        <div id="responsive_store_nav_overlay" style="display:none">
+          <div id="responsive_store_nav_overlay_ctn"></div>
+          <div id="responsive_store_nav_overlay_bottom"></div>
+        </div>
+        <div id="responsive_store_search_overlay" style="display:none"></div>
+        <div data-cart-banner-spot="1"></div>
+        <div role="main" class="responsive_page_template_content" id="responsive_page_template_content" data-panel="{&quot;autoFocus&quot;:true}">
+          <div id="application_config" style="display: none;" data-config="{&quot;EUNIVERSE&quot;:1,&quot;WEB_UNIVERSE&quot;:&quot;public&quot;,&quot;LANGUAGE&quot;:&quot;english&quot;,&quot;COUNTRY&quot;:&quot;US&quot;,&quot;MEDIA_CDN_COMMUNITY_URL&quot;:&quot;https:\/\/cdn.fastly.steamstatic.com\/steamcommunity\/public\/&quot;,&quot;MEDIA_CDN_URL&quot;:&quot;https:\/\/cdn.fastly.steamstatic.com\/&quot;,&quot;VIDEO_CDN_URL&quot;:&quot;https:\/\/video.fastly.steamstatic.com\/&quot;,&quot;COMMUNITY_CDN_URL&quot;:&quot;https:\/\/community.fastly.steamstatic.com\/&quot;,&quot;COMMUNITY_CDN_ASSET_URL&quot;:&quot;https:\/\/cdn.fastly.steamstatic.com\/steamcommunity\/public\/assets\/&quot;,&quot;STORE_CDN_URL&quot;:&quot;https:\/\/store.fastly.steamstatic.com\/&quot;,&quot;PUBLIC_SHARED_URL&quot;:&quot;https:\/\/store.fastly.steamstatic.com\/public\/shared\/&quot;,&quot;COMMUNITY_BASE_URL&quot;:&quot;https:\/\/steamcommunity.com\/&quot;,&quot;CHAT_BASE_URL&quot;:&quot;https:\/\/steamcommunity.com\/&quot;,&quot;STORE_BASE_URL&quot;:&quot;https:\/\/store.steampowered.com\/&quot;,&quot;STORE_CHECKOUT_BASE_URL&quot;:&quot;https:\/\/checkout.steampowered.com\/&quot;,&quot;IMG_URL&quot;:&quot;https:\/\/store.fastly.steamstatic.com\/public\/images\/&quot;,&quot;STEAMTV_BASE_URL&quot;:&quot;https:\/\/steam.tv\/&quot;,&quot;HELP_BASE_URL&quot;:&quot;https:\/\/help.steampowered.com\/&quot;,&quot;PARTNER_BASE_URL&quot;:&quot;https:\/\/partner.steamgames.com\/&quot;,&quot;STATS_BASE_URL&quot;:&quot;https:\/\/partner.steampowered.com\/&quot;,&quot;INTERNAL_STATS_BASE_URL&quot;:&quot;https:\/\/steamstats.valve.org\/&quot;,&quot;IN_CLIENT&quot;:false,&quot;USE_POPUPS&quot;:false,&quot;STORE_ICON_BASE_URL&quot;:&quot;https:\/\/shared.fastly.steamstatic.com\/store_item_assets\/steam\/apps\/&quot;,&quot;STORE_ITEM_BASE_URL&quot;:&quot;https:\/\/shared.fastly.steamstatic.com\/store_item_assets\/&quot;,&quot;WEBAPI_BASE_URL&quot;:&quot;https:\/\/api.steampowered.com\/&quot;,&quot;TOKEN_URL&quot;:&quot;https:\/\/store.steampowered.com\/\/chat\/clientjstoken&quot;,&quot;BUILD_TIMESTAMP&quot;:1761927249,&quot;PAGE_TIMESTAMP&quot;:1761968066,&quot;IN_TENFOOT&quot;:false,&quot;IN_GAMEPADUI&quot;:false,&quot;IN_CHROMEOS&quot;:false,&quot;IN_MOBILE_WEBVIEW&quot;:false,&quot;PLATFORM&quot;:&quot;windows&quot;,&quot;BASE_URL_STORE_CDN_ASSETS&quot;:&quot;https:\/\/cdn.fastly.steamstatic.com\/store\/&quot;,&quot;EREALM&quot;:1,&quot;LOGIN_BASE_URL&quot;:&quot;https:\/\/login.steampowered.com\/&quot;,&quot;AVATAR_BASE_URL&quot;:&quot;https:\/\/avatars.fastly.steamstatic.com\/&quot;,&quot;FROM_WEB&quot;:true,&quot;WEBSITE_ID&quot;:&quot;Store&quot;,&quot;BASE_URL_SHARED_CDN&quot;:&quot;https:\/\/shared.fastly.steamstatic.com\/&quot;,&quot;CLAN_CDN_ASSET_URL&quot;:&quot;https:\/\/clan.fastly.steamstatic.com\/&quot;,&quot;COMMUNITY_ASSETS_BASE_URL&quot;:&quot;https:\/\/shared.fastly.steamstatic.com\/community_assets\/&quot;,&quot;SNR&quot;:&quot;1_2108_9__2107&quot;}" data-userinfo="[]" data-hwinfo="{&quot;bSteamOS&quot;:false,&quot;bSteamDeck&quot;:false}" data-broadcastuser="{&quot;success&quot;:1,&quot;bHideStoreBroadcast&quot;:false}" data-initialevents="[]" data-groupvanityinfo="[{&quot;success&quot;:1,&quot;appid&quot;:2378900,&quot;clanAccountID&quot;:43894685,&quot;clanSteamIDString&quot;:&quot;103582791473416093&quot;,&quot;member_count&quot;:0,&quot;vanity_url&quot;:&quot;2378900&quot;,&quot;is_ogg&quot;:true,&quot;is_creator_home&quot;:false,&quot;is_curator&quot;:false,&quot;has_rss_feed&quot;:false,&quot;rss_language&quot;:0,&quot;avatar_full_url&quot;:&quot;https:\/\/avatars.fastly.steamstatic.com\/efd62c7d4c1a6ed0b4d7b61dc7e487fa710ad960_full.jpg&quot;,&quot;group_name&quot;:&quot;The Coffin of Andy and Leyley&quot;,&quot;creator_page_bg_url&quot;:false,&quot;partner_events_enabled&quot;:true}]" data-notificationstore="{&quot;email_validated&quot;:false,&quot;mobile_device_count&quot;:false}" data-partnereventpermissions="[{&quot;success&quot;:1,&quot;clanid&quot;:43894685,&quot;can_edit&quot;:false,&quot;appid&quot;:0,&quot;owns_app&quot;:false,&quot;follows_app&quot;:false,&quot;event_ignored&quot;:[],&quot;event_followed&quot;:[],&quot;event_followed_flags&quot;:[],&quot;support_user&quot;:false,&quot;valve_admin&quot;:false,&quot;limited_user&quot;:true}]" data-mutedcomminfo="{&quot;appids&quot;:[],&quot;clanids&quot;:[]}" data-creatorhome="[]" data-partnereventstore="[{&quot;gid&quot;:&quot;523092648628585985&quot;,&quot;clan_steamid&quot;:&quot;103582791473416093&quot;,&quot;event_name&quot;:&quot;Still Doing the Thing&quot;,&quot;event_type&quot;:28,&quot;appid&quot;:2378900,&quot;server_address&quot;:&quot;&quot;,&quot;server_password&quot;:&quot;&quot;,&quot;rtime32_start_time&quot;:1748761200,&quot;rtime32_end_time&quot;:1748763360,&quot;comment_count&quot;:0,&quot;creator_steamid&quot;:&quot;76561199839899774&quot;,&quot;last_update_steamid&quot;:&quot;76561199839899774&quot;,&quot;event_notes&quot;:&quot;see announcement body&quot;,&quot;jsondata&quot;:&quot;{\&quot;localized_subtitle\&quot;:[\&quot;Changes to announcement schedule.\&quot;,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null],\&quot;localized_summary\&quot;:[\&quot;\&quot;,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null],\&quot;localized_title_image\&quot;:[\&quot;d36c509fba820f82c9c800368cef3077d8201c88.png\&quot;,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null],\&quot;localized_capsule_image\&quot;:[\&quot;b9789f0e060f57b948b79e21150e86316d3a9343.png\&quot;,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null],\&quot;bSaleEnabled\&quot;:false,\&quot;sale_show_creator\&quot;:false,\&quot;sale_sections\&quot;:[],\&quot;sale_browsemore_text\&quot;:\&quot;\&quot;,\&quot;sale_browsemore_url\&quot;:\&quot;\&quot;,\&quot;sale_browsemore_color\&quot;:\&quot;\&quot;,\&quot;sale_browsemore_bgcolor\&quot;:\&quot;\&quot;,\&quot;localized_sale_header\&quot;:[null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null],\&quot;localized_sale_overlay\&quot;:[null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null],\&quot;localized_sale_product_banner\&quot;:[null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null],\&quot;localized_sale_product_mobile_banner\&quot;:[null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null],\&quot;localized_sale_logo\&quot;:[null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null],\&quot;sale_font\&quot;:\&quot;\&quot;,\&quot;sale_background_color\&quot;:\&quot;\&quot;,\&quot;sale_header_offset\&quot;:530,\&quot;referenced_appids\&quot;:[],\&quot;bBroadcastEnabled\&quot;:false,\&quot;broadcastChatSetting\&quot;:\&quot;hide\&quot;,\&quot;default_broadcast_title\&quot;:\&quot;#Broadcast_default_title_dev\&quot;,\&quot;localized_broadcast_title\&quot;:[null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null],\&quot;localized_broadcast_left_image\&quot;:[null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null],\&quot;localized_broadcast_right_image\&quot;:[null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null],\&quot;broadcast_whitelist\&quot;:[],\&quot;bScheduleEnabled\&quot;:false,\&quot;scheduleEntries\&quot;:[],\&quot;clone_from_event_gid\&quot;:\&quot;523090111361974321\&quot;,\&quot;clone_from_sale_enabled\&quot;:false,\&quot;valve_access_log\&quot;:[]}&quot;,&quot;announcement_body&quot;:{&quot;gid&quot;:&quot;523092648628585986&quot;,&quot;clanid&quot;:&quot;43894685&quot;,&quot;posterid&quot;:&quot;76561199839899774&quot;,&quot;headline&quot;:&quot;Still Doing the Thing&quot;,&quot;posttime&quot;:1748761205,&quot;updatetime&quot;:1754874048,&quot;body&quot;:&quot;[p][img src=\&quot;{STEAM_CLAN_IMAGE}\/43894685\/c8e7ee3ec1b09bbcc47a2528de5f6c383ede0414.png\&quot;][\/img][img src=\&quot;{STEAM_CLAN_IMAGE}\/43894685\/6c5231b61ce577bebf144546de2b81a2940edbd6.png\&quot;][\/img]\n[\/p][h2]Changes to Announcement Schedule[\/h2][p]\nThe engagement for the previous announcement has noticeably declined. Most likely due to the lack of content. This isn't expected to change for quite a while, and finding teasers that don't spoil the story gets increasingly challenging as the story nears certain end points.\n\nTo adjust for this, there won't be regular announcements on the first day of the month going forward. This may change later, but for the time being they're unsustainable, and would become increasingly hollow.\n\nFor the foreseeable future, content and information will be accumulated, and announcements will be done when there is something substantial to share.\n\nThe quality of these updates are being balanced against a degree of restlessness likely to cultivate in the absence of regular posts. Just know, that unless difficulties are expressed, everything marches along at the fastest sustainable pace possible.\n\n[\/p][h2]Author's Remarks[\/h2][p] Still going steady and all is well. Okay. Thanks. Bye. [\/p]&quot;,&quot;commentcount&quot;:0,&quot;tags&quot;:[&quot;mod_reviewed&quot;,&quot;ModAct_1713390233_1748763932_0&quot;,&quot;ModAct_1415727794_1754875444_4&quot;],&quot;language&quot;:0,&quot;hidden&quot;:0,&quot;forum_topic_id&quot;:&quot;594024703533797489&quot;,&quot;event_gid&quot;:&quot;523092648628585985&quot;,&quot;voteupcount&quot;:11989,&quot;votedowncount&quot;:200,&quot;ban_check_result&quot;:0,&quot;banned&quot;:0},&quot;published&quot;:1,&quot;hidden&quot;:0,&quot;rtime32_visibility_start&quot;:1748761200,&quot;rtime32_visibility_end&quot;:0,&quot;broadcaster_accountid&quot;:0,&quot;follower_count&quot;:0,&quot;ignore_count&quot;:0,&quot;forum_topic_id&quot;:&quot;594024703533797489&quot;,&quot;rtime32_last_modified&quot;:1761967246,&quot;news_post_gid&quot;:&quot;0&quot;,&quot;rtime_mod_reviewed&quot;:1754875444,&quot;featured_app_tagid&quot;:0,&quot;referenced_appids&quot;:[],&quot;build_id&quot;:0,&quot;build_branch&quot;:&quot;&quot;,&quot;unlisted&quot;:0}]" data-partnereventadjacents="[{&quot;announcementGID&quot;:&quot;523092648628585986&quot;,&quot;adjacents&quot;:[&quot;523092648628585986&quot;,&quot;523090111361974608&quot;,&quot;523090111361974322&quot;,&quot;523088842745446665&quot;]}]" data-uservotes="[]" data-metadatainfo="{&quot;clanid&quot;:0,&quot;clan_event_gid&quot;:&quot;&quot;}" data-store_user_config="{&quot;webapi_token&quot;:&quot;&quot;,&quot;shoppingcart&quot;:null,&quot;originating_navdata&quot;:null,&quot;wishlist_item_count&quot;:0}"></div>
+          <div id="application_root">
+            <div class="_2uHYtSBLSS1MxFonkOXr0O"></div>
+          </div>
+          <script>
+            window.g_wapit = "";
+          </script>
+          <link href="index_files/main.css" rel="stylesheet" type="text/css">
+          <script type="text/javascript" src="index_files/manifest.js"></script>
+          <script type="text/javascript" src="index_files/libraries~b28b7af69.js"></script>
+          <script type="text/javascript" src="index_files/main.js"></script>
+          <script type="text/javascript">
+            var g_AccountID = 0;
+            var g_Languages = ["english"];
+            var g_sessionID = "8ff8eacd6fbf1d20ce9c7693";
+            var g_ServerTime = 1761968066;
+            var g_bUseNewCartAPI = true;
+            $J(InitMiniprofileHovers('https%3A%2F%2Fstore.steampowered.com%2F'));
+            if (typeof GStoreItemData != 'undefined') {
+              GStoreItemData.AddNavParams({
+                __page_default: "1_2108_9__2107",
+                __page_default_obj: {
+                  "domain": "store.steampowered.com",
+                  "controller": "events",
+                  "method": "app",
+                  "submethod": "",
+                  "feature": "store-calendar-partner-events",
+                  "depth": null,
+                  "countrycode": "US",
+                  "webkey": null,
+                  "is_client": false,
+                  "curator_data": null,
+                  "is_likely_bot": false,
+                  "is_utm": null
+                },
+                __originating_obj: null,
+                storemenu_recommendedtags: "1_2108_9__17"
+              });
+            }
+            if (typeof GDynamicStore != 'undefined') {
+              GDynamicStore.Init(0, false, "", {
+                "primary_language": null,
+                "secondary_languages": null,
+                "platform_windows": null,
+                "platform_mac": null,
+                "platform_linux": null,
+                "timestamp_updated": null,
+                "hide_store_broadcast": null,
+                "review_score_preference": null,
+                "timestamp_content_descriptor_preferences_updated": null,
+                "provide_deck_feedback": null,
+                "additional_languages": null
+              }, 'US', {
+                "bNoDefaultDescriptors": false
+              });
+              GStoreItemData.SetCurrencyFormatter(function(nValueInCents, bWholeUnitsOnly) {
+                var fmt = function(nValueInCents, bWholeUnitsOnly) {
+                  var format = v_numberformat(nValueInCents / 100, bWholeUnitsOnly ? 0 : 2, ".", ",");
+                  return format;
+                };
+                var strNegativeSymbol = '';
+                if (nValueInCents < 0) {
+                  strNegativeSymbol = '-';
+                  nValueInCents = -nValueInCents;
+                }
+                return strNegativeSymbol + "$" + fmt(nValueInCents, bWholeUnitsOnly);
+              });
+              GStoreItemData.SetCurrencyMinPriceIncrement(1);
+            }
+          </script>
+          <script>
+            // Always load this page at the initial scroll position. Don't try to be clever across reload or back-nav.
+            if ('scrollRestoration' in history) {
+              history.scrollRestoration = 'manual';
+            }
+          </script>
+          <div class="page_content_ctn">
+            <div data-featuretarget="event-calendar">
+              <div class="_2Ptras-ZC31rwdT6pD-t0a lang_en LK4bXmKAknKopK864hJFM _1p_lsRZvAYiGSonqGbCnrp">
+                <div class="_1HRiMtg_SGUiOa-NXDzZl7 AppPartnerEventsBanner">
+                  <div class="wavRtSPqcvhar0kUHlKoJ">
+                    <div class="_3RHFoIvdUHn0fp8G8M258k" style="background-image: url(&quot;https://shared.fastly.steamstatic.com//store_item_assets/steam/apps/2378900/0badd5423ec8cb36d543b7b156121ac2d38ef330/header.jpg?t=1760394751&quot;);"></div>
+                    <div class="qexk-JocS7jjDM31IcGZn">
+                      <a data-key="hover div" class="_2ByoTNxZVuR0nzg_XXWXBV HvshcO0_xlagk-lVVN9D0 _2EV_WNLGjRLNX824mfis9O" href="https://store.steampowered.com/app/2378900/The_Coffin_of_Andy_and_Leyley?snr=1_2108_9__2107">
+                        <img class="dGGTg8iH8Z_d_p6nPFFlM" src="index_files/header.jpg">
+                      </a>
+                      <div class="_1iqjH40fN4Diar-d-rLbR5">The Coffin of Andy and Leyley <div class="_3tf3bdmBO0Ji0rv8PH-ZXz">News Hub</div>
+                      </div>
+                      <div class="D1bMmHTycpEqG4Sp3VVvH">
+                        <div class="_371yXVkVSnacHxz1fMmGpT">
+                          <div class="tool-tip-source Focusable">
+                            <div class="_1djkdp7OAd0mF3a90RKf27 _3WcW8PJCSEWwVA6qJ-RUOF">
+                              <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 100">
+                                <polygon stroke="currentColor" fill="none" points="50 4.7 61.1 38.9 97.2 38.9 68 60.1 79.2 94.4 50 73.2 20.8 94.4 32 60.1 2.8 38.9 38.9 38.9 50 4.7" stroke-linejoin="round" stroke-width="5"></polygon>
+                              </svg>
+                            </div>
+                          </div>
+                        </div>
+                        <div class="_1tnk5F-ooFjGdvCzXLwtmf">
+                          <div class="_1ABCOz8DSrl-YJdh1xD-m0 _1HwWXjF06mJ9sG_9KXlgA- FollowButton _1sDn2dLVB1pIeh5UP4EOVT Focusable" tabindex="0" role="button">
+                            <div class="_1a5djsChaeoZViyFSGNom5">Follow</div>
+                          </div>
+                        </div>
+                        <label class="DialogInputLabelGroup _DialogLayout _1afFDl3n1RB22K4gFglar">
+                          <button class="S9cqDrgEIhtUE6pU3-2iQ DialogDropDown _DialogInputContainer  Focusable" tabindex="0" type="button" role="combobox" aria-expanded="false">
+                            <div class="DialogDropDown_CurrentDisplay">Links</div>
+                            <div class="_3URBCM-OKlL3sg0hORPS01 DialogDropDown_Arrow">
+                              <svg xmlns="http://www.w3.org/2000/svg" class="SVGIcon_Button SVGIcon_DownArrowContextMenu" data-name="Layer 1" viewBox="0 0 128 128" x="0px" y="0px" role="presentation">
+                                <polygon points="50 59.49 13.21 22.89 4.74 31.39 50 76.41 95.26 31.39 86.79 22.89 50 59.49"></polygon>
+                              </svg>
+                            </div>
+                          </button>
+                        </label>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div class="FZiaqIAvLKRo2ye9j3cq0">
+                  <div class="_3xNobHnL6L5HNoDQf8AHUo">
+                    <div class="_2EWL0Txuk_th1gh-UxYPPx" style="background-color: rgb(37, 41, 46); background-image: url(&quot;https://clan.fastly.steamstatic.com/images/43894685/d36c509fba820f82c9c800368cef3077d8201c88.png&quot;);"></div>
+                    <div class="_17G2yhjdc_ZmGlMv-L-S05" style="background-color: rgb(37, 41, 46); background-image: url(&quot;https://clan.fastly.steamstatic.com/images/43894685/d36c509fba820f82c9c800368cef3077d8201c88.png&quot;);"></div>
+                  </div>
+                  <div class="_1_x4oDqLbWfiaDp5HQ2yA8"></div>
+                </div>
+                <div class="_3o4SVY-lALGHvkOPxiClcu">
+                  <div class="_32nPM5nI8cmMdkvRnsUcq"></div>
+                  <div class="_3lIxPlLiNjLik6YIM8DKpk">
+                    <div class="_3aht--c1L66YvvpY-Il67f">
+                      <div class="stsss-bTNuazY8FYtvTOX" style="background-image: url(&quot;https://clan.fastly.steamstatic.com/images/43894685/d36c509fba820f82c9c800368cef3077d8201c88.png&quot;);"></div>
+                      <div class="_3z2NYCkFizMu4fMvWTIBUG">
+                        <div class="_3jswbLK3E0Uf47oGyc6qUG">
+                          <div class="blockbg Panel Focusable">
+                            <a href="https://store.steampowered.com/news/">All Events</a>
+                            <span>&nbsp;&gt; </span>
+                            <a href="https://store.steampowered.com/news/app/2378900">The Coffin of Andy and Leyley Events</a>
+                            <span>&nbsp;&gt; </span>
+                          </div>
+                          <div style="clear: left;"></div>
+                        </div>
+                        <div class="TqEPC9bhvVpZ1rb3Z8Mbd">Happy Halloween!</div>
+                        <div class="_20f2sKS2M7PlPSnPCinT26">The long-awaited Halloween devlog.</div>
+                      </div>
+                      <div class="_1PEIfuF8koQapWSDE4ixM8 EventDetail">
+                        <div class="_2orfVuUro8BNFNNhRfGk4n">
+                          <div class="EventDetailsBody A_A2B6fTn_MPLlGCmsLtd">
+                            <p class="_3lnqGBzYap-Z2T81XBiBUU">
+                              <span class="_16SknI_KfMn45zQAvi-Xrs">
+                                <span class="_3Mns5ZEBThi10kv9zwdCRr">
+                                  <svg fill="#FFFFFF" xmlns="http://www.w3.org/2000/svg" class="SVGIcon_Button SVGIcon_Popout" viewBox="0 0 8 8" x="0px" y="0px">
+                                    <path d="M0 0v8h8v-2h-1v1h-6v-6h1v-1h-2zm4 0l1.5 1.5-2.5 2.5 1 1 2.5-2.5 1.5 1.5v-4h-4z"></path>
+                                  </svg>
+                                </span>
+                                <img class="undefined" src="index_files/preview1.png">
+                              </span>
+                              <span class="_16SknI_KfMn45zQAvi-Xrs">
+                                <span class="_3Mns5ZEBThi10kv9zwdCRr">
+                                  <svg fill="#FFFFFF" xmlns="http://www.w3.org/2000/svg" class="SVGIcon_Button SVGIcon_Popout" viewBox="0 0 8 8" x="0px" y="0px">
+                                    <path d="M0 0v8h8v-2h-1v1h-6v-6h1v-1h-2zm4 0l1.5 1.5-2.5 2.5 1 1 2.5-2.5 1.5 1.5v-4h-4z"></path>
+                                  </svg>
+                                </span>
+                                <img class="undefined" src="index_files/preview2.png">
+                              </span>
+                              <br>
+                              <wbr>
+                            </p>
+                            <h2 class="_6-VR2WCBCDupCcUN5INQM BB_Header2 QuKtTJ4LCPUlQeWYfLNyX">Progress Report</h2>
+                            <p class="_3lnqGBzYap-Z2T81XBiBUU">
+                              <br>Welcome back, you filthy animals. For Halloween, we will be giving away the game for free for a limited time. Simply claim it before the end of the day and it's yours to keep, forever! <br>
+                              <br>It's been five months since the last update. As you may have guessed, progress on Episode 4A is still continuing steadily. Rest assured that we are still cooking and will not stop until the entire kitchen has burned down. There is no set release date yet, but we are planning tentatively for late 2026-early 2027. <br>
+                              <br>Actually, you shouldn't trust us on that one. All we know for sure is that it will be released when it's done. <br>
+                              <br>In the meantime, might we interest you in a game called <em>In Stars and Time</em>? Did you know they are releasing a Siffrin plushie that you can pre-order RIGHT NOW? <br>
+                              <br>This, of course, is not foreshadowing the release of Andrew, Ashley, or Julia plushies. (But maybe merch will happen if there is enough demand. Not anytime soon, though.) <br>
+                              <br>By the way, whoever comments on this post and correctly guesses the ending of the Burial route will receive 9 Kitpoints. These can be redeemed at the gachapon machine. <br>
+                              <br>With that being said... see you next year! <br>
+                              <br>
+                              <wbr>
+                            </p>
+                            <h2 class="_6-VR2WCBCDupCcUN5INQM BB_Header2 QuKtTJ4LCPUlQeWYfLNyX">Author's Remarks</h2>
+                            <p class="_3lnqGBzYap-Z2T81XBiBUU"> I've been really into Silksong lately, so the development time might take a hit while I work on my Steel Soul runs. Thanks for understanding. <wbr>
+                            </p>
+                          </div>
+                          <span class="_3UhsQfZfx8h_mvk1qQ2E7p"></span>
+                          <div class="_1wKUEA0cYqeUELXMe3Tp6T"></div>
+                        </div>
+                        <div class="_3Ej2uoApLQ756OReRtcQ2f">
+                          <div class="_3IxVZE9uydjh3cA9kmtnk7">
+                            <div class="JOkXFrkqayZ-Pg2Fr46Ho">
+                              <div class="efy3k8RozzxfFidgbdfZZ">Game</div>
+                              <div class="_1dKR2IPNQSHs1MAIXBvt_R Panel Focusable">
+                                <div class="ImpressionTrackedElement">
+                                  <a data-key="hover div" class="_2ByoTNxZVuR0nzg_XXWXBV HvshcO0_xlagk-lVVN9D0 _22AcxR1RBDH6i-gjKRHYk0" href="https://store.steampowered.com/app/2378900/The_Coffin_of_Andy_and_Leyley?snr=1_2108_9__2107"></a>
+                                  <div class="">
+                                    <a data-key="hover div" class="_2ByoTNxZVuR0nzg_XXWXBV HvshcO0_xlagk-lVVN9D0 _22AcxR1RBDH6i-gjKRHYk0" href="https://store.steampowered.com/app/2378900/The_Coffin_of_Andy_and_Leyley?snr=1_2108_9__2107"></a>
+                                    <a href="https://store.steampowered.com/app/2378900/The_Coffin_of_Andy_and_Leyley?snr=1_2108_9__2107" style="display: block; cursor: pointer;" class="Focusable" tabindex="0" role="button">
+                                      <div class="_1xNQcxU9_OtQ-_PrMbviS4 CapsuleDecorators"></div>
+                                      <div class="_2oW_y7Mm3ihf1XQ0C1VWhx CapsuleImageCtn">
+                                        <img class="_2eQ4mkpf4IzUp1e9NnM2Wr" loading="lazy" width="460" height="215" alt="The Coffin of Andy and Leyley" src="index_files/header.jpg">
+                                      </div>
+                                    </a>
+                                  </div>
+                                  <div class="_3lmdEmwrmqe-kicNCZ9v-I CapsuleBottomBar">
+                                    <span class="_2bCf9u4rlC8De687HY6wnh">
+                                      <span title="Windows">
+                                        <svg version="1.1" xmlns="http://www.w3.org/2000/svg" x="0px" y="0px" class="SVGIcon_Button SVGIcon_WindowsLogo" width="100%" height="100%" viewBox="0 0 128 128" enable-background="new 0 0 128 128" aria-label="Windows">
+                                          <rect fill="currentColor" width="60.834" height="60.835"></rect>
+                                          <rect x="67.165" fill="currentColor" width="60.835" height="60.835"></rect>
+                                          <rect y="67.164" fill="currentColor" width="60.834" height="60.836"></rect>
+                                          <rect x="67.165" y="67.164" fill="currentColor" width="60.835" height="60.836"></rect>
+                                        </svg>
+                                      </span>
+                                    </span>
+                                    <span class="_1X3j2g29SBtsrFMgNiKi_Y">
+                                      <div class="_2s-O5T3qJJYR2AUq4b9jIN StoreSalePriceWidgetContainer _1g0B-RjwkUV0_MDURgy3Bi Discounted" aria-label="30% off. $11.99 normally, discounted to $8.39">
+                                        <div class="cnkoFkzVCby40gJ0jGGS4">-100%</div>
+                                        <div class="_3NhLu7mTdty7JufpSpz6Re">
+                                          <div class="_3fFFsvII7Y2KXNLDk_krOW">$11.99</div>
+                                          <div class="_3j4dI1yA7cRfCvK8h406OB">$0.00</div>
+                                        </div>
+                                      </div>
+                                    </span>
+                                  </div>
+                                </div>
+                              </div>
+                              <div class="bGROTLQdP5BDMIzo0cL9T">
+                                <div class="tool-tip-source Focusable">
+                                  <div class="_1djkdp7OAd0mF3a90RKf27 _26-KZHJ9fTyRZHH2c2H6Y2">
+                                    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 100">
+                                      <polygon stroke="currentColor" fill="none" points="50 4.7 61.1 38.9 97.2 38.9 68 60.1 79.2 94.4 50 73.2 20.8 94.4 32 60.1 2.8 38.9 38.9 38.9 50 4.7" stroke-linejoin="round" stroke-width="5"></polygon>
+                                    </svg>
+                                  </div>
+                                </div>
+                              </div>
+                            </div>
+                            <div class="_2KsEbGy9kiSDeQpcqEc9DG">
+                              <div class="_1Maw_Rw6sOKYC1KkOI1xM">
+                                <div class="efy3k8RozzxfFidgbdfZZ">Posted&nbsp;</div>
+                                <div class="_3Sy57gZmUNuNdOI8qtPQVs">
+                                  <div>Fri, October 31, 2025</div>
+                                  <span class="Fn5EUtWkwSAw_gbbiySKN">@</span>
+                                  <div>12:00 AM <span>&nbsp;PDT</span>
+                                  </div>
+                                </div>
+                              </div>
+                            </div>
+                            <div class="_3phfIcOe_STA7hSoFfIxlE">
+                              <div class="efy3k8RozzxfFidgbdfZZ">Type</div>
+                              <div class="_2u9c-A3-fBObro9MTIQ1os">News </div>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                      <div class="mKmrOjr9bGjKAolgp9NoD Panel Focusable">
+                        <div class="_9x4Z7eMgdwfAVMr16ZaJ0">
+                          <div class="_3Kelh1-_v6xHfRjF68n7NB">
+                            <div class="_3csl-MPe-hKuT8hQpOqEG5">
+                              <svg version="1.1" id="Layer_2" xmlns="http://www.w3.org/2000/svg" class="Sf3urgalDvD2sZqNjEV9i" x="0px" y="0px" width="256px" height="256px" viewBox="0 0 409.6 409.6">
+                                <path d="M225.1,328.8c-12.6,0-15.3-1.9-29.5-5.3c-18.7-4.8-35.3-6.3-51-5.3c-3.5,0.5-7.1,0.5-10.6,1l-7.6,1
+				c-2.5,0.5-4.5-1-5.6-3.4c-12.6-36.2-16.6-74.7-11.6-117.6c0-2.4,2-3.9,4.5-4.3l4.5-0.5c3.5-0.5,6.6-1,10.1-1c5-0.5,9.6-2.9,13.1-7.2
+				l0.5-1c0.5-0.5,1-1.4,1.5-2.4c9.1-14.5,22.2-25.6,36.8-37.6c7.6-6.3,14.1-12.5,20.2-18.3c6.6-7.2,10.1-16.4,10.6-27
+				c0-9.6,5.6-15.4,16.1-16.4c13.6-1,22.7,3.9,27.8,15.9c7.6,16.4-4.4,33.3-13.9,50.6c-2,3.9-4.5,7.2-7.1,10.6c-1,1.4-2,2.9-3,4.3
+				l-3.5,4.8c-1.5,1.9-3,3.9-4.5,6.3c4,0,7.6,0,11.6,0c11.1-0.5,34.6-0.5,46.7,1.4c7.6,1,13.6,4.8,17.7,10.1c3.5,4.8,4.5,11.1,3,17.8
+				c-0.5,2.9-2,5.8-5,9.2c-1.5,1.9-14.4,3.9-16.5,5.3h10.9c2.5,1.9,5,3.9,7.1,6.3c4,4.3,5.6,9.2,5,14.9c-0.5,5.3-3,10.6-7.6,14
+				c-2.5,1.9-16,3.9-18.5,5.3c5,5.3,18,12.1,16.5,19.3c-2,9.6-7.6,15.4-18.2,17.8c2.5,3.9,3,8.7,1.5,13.5c-0.5,2.4-1.5,4.3-2.5,6.3
+				c-2.5,5.3-6.6,8.2-13.1,9.6C253.2,327.8,233.7,328.8,225.1,328.8z"></path>
+                              </svg>420
+                            </div>
+                            <div class="_1ABCOz8DSrl-YJdh1xD-m0 _1dDpSuaJBGZzS41s0SPk4c rHz7G5xZ3qXUYUcBW2bzX Panel Focusable" tabindex="0" role="button">
+                              <svg version="1.1" id="Layer_2" xmlns="http://www.w3.org/2000/svg" class="_2akzufsslA5YAnC95zYx0K" x="0px" y="0px" width="256px" height="256px" viewBox="0 0 409.6 409.6">
+                                <path d="M225.1,328.8c-12.6,0-15.3-1.9-29.5-5.3c-18.7-4.8-35.3-6.3-51-5.3c-3.5,0.5-7.1,0.5-10.6,1l-7.6,1
+				c-2.5,0.5-4.5-1-5.6-3.4c-12.6-36.2-16.6-74.7-11.6-117.6c0-2.4,2-3.9,4.5-4.3l4.5-0.5c3.5-0.5,6.6-1,10.1-1c5-0.5,9.6-2.9,13.1-7.2
+				l0.5-1c0.5-0.5,1-1.4,1.5-2.4c9.1-14.5,22.2-25.6,36.8-37.6c7.6-6.3,14.1-12.5,20.2-18.3c6.6-7.2,10.1-16.4,10.6-27
+				c0-9.6,5.6-15.4,16.1-16.4c13.6-1,22.7,3.9,27.8,15.9c7.6,16.4-4.4,33.3-13.9,50.6c-2,3.9-4.5,7.2-7.1,10.6c-1,1.4-2,2.9-3,4.3
+				l-3.5,4.8c-1.5,1.9-3,3.9-4.5,6.3c4,0,7.6,0,11.6,0c11.1-0.5,34.6-0.5,46.7,1.4c7.6,1,13.6,4.8,17.7,10.1c3.5,4.8,4.5,11.1,3,17.8
+				c-0.5,2.9-2,5.8-5,9.2c-1.5,1.9-14.4,3.9-16.5,5.3h10.9c2.5,1.9,5,3.9,7.1,6.3c4,4.3,5.6,9.2,5,14.9c-0.5,5.3-3,10.6-7.6,14
+				c-2.5,1.9-16,3.9-18.5,5.3c5,5.3,18,12.1,16.5,19.3c-2,9.6-7.6,15.4-18.2,17.8c2.5,3.9,3,8.7,1.5,13.5c-0.5,2.4-1.5,4.3-2.5,6.3
+				c-2.5,5.3-6.6,8.2-13.1,9.6C253.2,327.8,233.7,328.8,225.1,328.8z"></path>
+                              </svg>
+                              <span class="_3P2XeK0HGdzGWS3fRQ4_vX">Rate Up</span>
+                            </div>
+                            <div class="_1ABCOz8DSrl-YJdh1xD-m0 _1dDpSuaJBGZzS41s0SPk4c rHz7G5xZ3qXUYUcBW2bzX Panel Focusable" aria-label="Rate Down" tabindex="0" role="button">
+                              <svg version="1.1" id="Layer_2" xmlns="http://www.w3.org/2000/svg" class="_3ZqxxB_poSsEYBW1s4t1OY" x="0px" y="0px" width="256px" height="256px" viewBox="0 0 409.6 409.6">
+                                <path d="M225.1,328.8c-12.6,0-15.3-1.9-29.5-5.3c-18.7-4.8-35.3-6.3-51-5.3c-3.5,0.5-7.1,0.5-10.6,1l-7.6,1
+				c-2.5,0.5-4.5-1-5.6-3.4c-12.6-36.2-16.6-74.7-11.6-117.6c0-2.4,2-3.9,4.5-4.3l4.5-0.5c3.5-0.5,6.6-1,10.1-1c5-0.5,9.6-2.9,13.1-7.2
+				l0.5-1c0.5-0.5,1-1.4,1.5-2.4c9.1-14.5,22.2-25.6,36.8-37.6c7.6-6.3,14.1-12.5,20.2-18.3c6.6-7.2,10.1-16.4,10.6-27
+				c0-9.6,5.6-15.4,16.1-16.4c13.6-1,22.7,3.9,27.8,15.9c7.6,16.4-4.4,33.3-13.9,50.6c-2,3.9-4.5,7.2-7.1,10.6c-1,1.4-2,2.9-3,4.3
+				l-3.5,4.8c-1.5,1.9-3,3.9-4.5,6.3c4,0,7.6,0,11.6,0c11.1-0.5,34.6-0.5,46.7,1.4c7.6,1,13.6,4.8,17.7,10.1c3.5,4.8,4.5,11.1,3,17.8
+				c-0.5,2.9-2,5.8-5,9.2c-1.5,1.9-14.4,3.9-16.5,5.3h10.9c2.5,1.9,5,3.9,7.1,6.3c4,4.3,5.6,9.2,5,14.9c-0.5,5.3-3,10.6-7.6,14
+				c-2.5,1.9-16,3.9-18.5,5.3c5,5.3,18,12.1,16.5,19.3c-2,9.6-7.6,15.4-18.2,17.8c2.5,3.9,3,8.7,1.5,13.5c-0.5,2.4-1.5,4.3-2.5,6.3
+				c-2.5,5.3-6.6,8.2-13.1,9.6C253.2,327.8,233.7,328.8,225.1,328.8z"></path>
+                              </svg>
+                            </div>
+                          </div>
+                          <div class="_16xC0mtOWoLbvSQbmo_ycv">
+                            <div class="QQy4BCjcpjCfAvTKAqBq3">
+                              <svg version="1.1" id="Layer_5" class="SVGIcon_Button SVGIcon_ChatBubble AMU5Zvf1pJLZGVqbpGcUC" xmlns="http://www.w3.org/2000/svg" x="0px" y="0px" viewBox="0 0 64 64" role="presentation">
+                                <g>
+                                  <path d="M33,5C18.7,5,7.1,16.6,7.1,30.9c0,5.2,1.5,10.1,4.2,14.1c-0.6,3.7-4.5,10.5-6.2,13.5c-1.3,2.2,11.4-3.8,16.3-4.5c3.5,1.8,7.5,2.8,11.7,2.8c14.3,0,25.9-11.6,25.9-25.9S47.3,5,33,5z"></path>
+                                </g>
+                              </svg>69
+                            </div>
+                            <a href="https://steamcommunity.com/app/2378900/eventcomments/594024703533797489?snr=1_2108_9__2107" tabindex="0" class="Focusable">
+                              <div class="_1ABCOz8DSrl-YJdh1xD-m0 _1dDpSuaJBGZzS41s0SPk4c rHz7G5xZ3qXUYUcBW2bzX">
+                                <svg version="1.1" id="Layer_5" class="SVGIcon_Button SVGIcon_ChatBubble AMU5Zvf1pJLZGVqbpGcUC" xmlns="http://www.w3.org/2000/svg" x="0px" y="0px" viewBox="0 0 64 64" role="presentation">
+                                  <g>
+                                    <path d="M33,5C18.7,5,7.1,16.6,7.1,30.9c0,5.2,1.5,10.1,4.2,14.1c-0.6,3.7-4.5,10.5-6.2,13.5c-1.3,2.2,11.4-3.8,16.3-4.5c3.5,1.8,7.5,2.8,11.7,2.8c14.3,0,25.9-11.6,25.9-25.9S47.3,5,33,5z"></path>
+                                  </g>
+                                </svg>
+                                <span class="_3P2XeK0HGdzGWS3fRQ4_vX">Discuss</span>
+                              </div>
+                            </a>
+                          </div>
+                        </div>
+                        <div class="_3ctGqQID5-8adtd7HlZ3YM">
+                          <div class="_1ABCOz8DSrl-YJdh1xD-m0 _1dDpSuaJBGZzS41s0SPk4c rHz7G5xZ3qXUYUcBW2bzX Panel Focusable" tabindex="0" role="button">
+                            <svg class="_3qVz2p-X14nAGX6EWNC87I" height="100px" width="100px" fill="#000000" xmlns="http://www.w3.org/2000/svg" version="1.1" viewBox="0 0 32 32" x="0px" y="0px">
+                              <path d="M26.286 0c-3.142 0-5.714 2.572-5.714 5.714 0 0.512 0.074 1.006 0.202 1.479l-10.573 5.287c-1.049-1.332-2.67-2.194-4.487-2.194-3.142 0-5.714 2.572-5.714 5.714s2.572 5.714 5.714 5.714c1.815 0 3.437-0.862 4.486-2.193l10.574 5.287c-0.127 0.473-0.202 0.966-0.202 1.478 0 3.142 2.572 5.714 5.714 5.714s5.714-2.572 5.714-5.714c0-3.142-2.572-5.714-5.714-5.714-1.817 0-3.438 0.862-4.487 2.194l-10.573-5.287c0.128-0.473 0.202-0.967 0.202-1.479s-0.074-1.005-0.202-1.478l10.574-5.287c1.049 1.331 2.67 2.193 4.486 2.193 3.142 0 5.714-2.572 5.714-5.714s-2.572-5.714-5.714-5.714zM26.286 2.286c1.907 0 3.429 1.522 3.429 3.429s-1.522 3.429-3.429 3.429c-1.907 0-3.429-1.522-3.429-3.429s1.522-3.429 3.429-3.429zM5.714 12.571c1.907 0 3.429 1.522 3.429 3.429s-1.522 3.429-3.429 3.429c-1.907 0-3.429-1.522-3.429-3.429s1.522-3.429 3.429-3.429zM26.286 22.857c1.907 0 3.429 1.522 3.429 3.429s-1.522 3.429-3.429 3.429c-1.907 0-3.429-1.522-3.429-3.429s1.522-3.429 3.429-3.429z"></path>
+                            </svg>
+                            <span class="_3P2XeK0HGdzGWS3fRQ4_vX">Share</span>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                    <span></span>
+                    <div class="_9H6b5yfaxlmcnHvkqtwDK OtherEventsCtn">
+                      <div class="onqWKRp2JgmjHjFAtHUAM">
+                        <div class="Idd_AoQMoEWIZamI72mP7 EventSectionTitle">More events from The Coffin of Andy and Leyley </div>
+                        <div class="_1BloexLaoA9uwhXnsLWe6M">&nbsp;</div>
+                        <a href="https://store.steampowered.com/news/app/2378900" class="uckBibUwkj9tX_NZHf6wN Focusable" tabindex="0" role="button">View All</a>
+                      </div>
+                      <div class="_16DzRvjcqFcYr0NYcWmTrg Panel Focusable">
+                        <a href="https://store.steampowered.com/news/app/2378900/view/523090111361974607" class="_1MwNf8slOG9lOvAeOshmuu OtherEvents_EventCtn _3o6M87A6T172WsUE6MNvdW Focusable" tabindex="0" role="button">
+                          <div class="_2GYp44BuZLfKRQdeILTDC3">
+                            <div class="_11JXznGoylLSEmZXZbgcsq">Small Update / Patch Notes</div>
+                            <div class="ENbI1gFgvIca6HSKAbfiJ">NOTE: If you saved the game right before a hard/softlock state will occur, this also can save the broken conditions and state of it. This save is forever corrupt.</div>
+                          </div>
+                          <div class="_2pPj9UWoWM6h318uBN0-8X" style="background-color: rgb(255, 255, 255); background-image: url(&quot;https://shared.fastly.steamstatic.com//store_item_assets/steam/apps/2378900/2f7266038921fab64c15c61856c024b93b275557/capsule_616x353.jpg?t=1760394751&quot;);"></div>
+                          <div class="_22jEpNTfml-w_aRJV-fKDm">
+                            <div class="_2qyLPxO8_nkczRvFiaju8N">
+                              <img class="_3_wKbXvT7_y5YkrtadL0I6" alt="" src="index_files/capsule_616x353.jpg">
+                            </div>
+                            <div class="_3-EtNa1Nr_737K0kglkT9C">
+                              <div class="_2jc1DpJ_WzFtigRh5qDWce">Minor Patch v3.0.11</div>
+                              <span class="HZ6b2d4r4EFnT_1BeU5vo">Fri, May 2, 2025</span>
+                            </div>
+                          </div>
+                        </a>
+                        <a href="https://store.steampowered.com/news/app/2378900/view/523088842745446664" class="_1MwNf8slOG9lOvAeOshmuu OtherEvents_EventCtn _3o6M87A6T172WsUE6MNvdW Focusable" tabindex="0" role="button">
+                          <div class="_2GYp44BuZLfKRQdeILTDC3">
+                            <div class="_11JXznGoylLSEmZXZbgcsq">Small Update / Patch Notes</div>
+                            <div class="ENbI1gFgvIca6HSKAbfiJ">NOTE: If you saved the game right before a hard/softlock state will occur, this also can save the broken conditions and state of it. This save is forever corrupt.</div>
+                          </div>
+                          <div class="_2pPj9UWoWM6h318uBN0-8X" style="background-color: rgb(255, 255, 255); background-image: url(&quot;https://shared.fastly.steamstatic.com//store_item_assets/steam/apps/2378900/2f7266038921fab64c15c61856c024b93b275557/capsule_616x353.jpg?t=1760394751&quot;);"></div>
+                          <div class="_22jEpNTfml-w_aRJV-fKDm">
+                            <div class="_2qyLPxO8_nkczRvFiaju8N">
+                              <img class="_3_wKbXvT7_y5YkrtadL0I6" alt="" src="index_files/capsule_616x353.jpg">
+                            </div>
+                            <div class="_3-EtNa1Nr_737K0kglkT9C">
+                              <div class="_2jc1DpJ_WzFtigRh5qDWce">Minor Patch v3.0.10</div>
+                              <span class="HZ6b2d4r4EFnT_1BeU5vo">Fri, April 18, 2025</span>
+                            </div>
+                          </div>
+                        </a>
+                        <a href="https://store.steampowered.com/news/app/2378900/view/523090111361974321" class="_1MwNf8slOG9lOvAeOshmuu OtherEvents_EventCtn _3o6M87A6T172WsUE6MNvdW Focusable" tabindex="0" role="button">
+                          <div class="_2GYp44BuZLfKRQdeILTDC3">
+                            <div class="_11JXznGoylLSEmZXZbgcsq">News</div>
+                            <div class="ENbI1gFgvIca6HSKAbfiJ">As requested, the next episode was released as is. There were a few weeks taken to get everything migrated to a patch and fully tested.</div>
+                          </div>
+                          <div class="_2pPj9UWoWM6h318uBN0-8X" style="background-color: rgb(255, 255, 255); background-image: url(&quot;https://clan.fastly.steamstatic.com/images/43894685/6cbd60ff67f28fd0740c2b55fb2a484404dd5e1b_400x225.png&quot;);"></div>
+                          <div class="_22jEpNTfml-w_aRJV-fKDm">
+                            <div class="_2qyLPxO8_nkczRvFiaju8N">
+                              <img class="_3_wKbXvT7_y5YkrtadL0I6" alt="" src="index_files/6cbd60ff67f28fd0740c2b55fb2a484404dd5e1b_400x225.png">
+                            </div>
+                            <div class="_3-EtNa1Nr_737K0kglkT9C">
+                              <div class="_2jc1DpJ_WzFtigRh5qDWce">Aftermath</div>
+                              <div class="_1Swox5XYdeesack-J7fNLH">Post release updates.</div>
+                              <span class="HZ6b2d4r4EFnT_1BeU5vo">Thu, May 1, 2025</span>
+                            </div>
+                          </div>
+                        </a>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div class="Wk21cv1qcYBOF2PSAOfb-">
+                  <div class="_3lIxPlLiNjLik6YIM8DKpk">
+                    <div class="jJFfoBi2WDn1ym8KCLfLr">
+                      <span class="_2gsoDhNzhAXpECJk2aM94W">About This Game:</span>
+                      <div class="_2jRJR7Vuvy9GStGxMc06AQ AppSummaryWidgetCtn">
+                        <div class="_1_P15GG6AKyF_NMX2j4-Mu StoreSaleWidgetOuterContainer Panel Focusable">
+                          <div class="ImpressionTrackedElement">
+                            <div class="_2hhNOdcC6yLwL_rugP3YLf _37iggltdgh0RtNIECJCfOj Focusable" tabindex="0" role="button">
+                              <div class="_111nfdz8Xyg7lDjTWv_OmK">
+                                <div>
+                                  <a href="https://store.steampowered.com/app/2378900?snr=1_2108_9__2107" class="Focusable" target="_blank" rel="noopener noreferrer" tabindex="0" role="button">
+                                    <div class="yvqq8z2k4i7-Mzx-JHeNC">
+                                      <div class="_1xNQcxU9_OtQ-_PrMbviS4 CapsuleDecorators"></div>
+                                      <div class="_2oW_y7Mm3ihf1XQ0C1VWhx CapsuleImageCtn">
+                                        <img class="_2eQ4mkpf4IzUp1e9NnM2Wr" loading="lazy" width="460" height="215" alt="The Coffin of Andy and Leyley" src="index_files/header.jpg">
+                                      </div>
+                                    </div>
+                                  </a>
+                                </div>
+                              </div>
+                              <div class="v9uRg57bwOaPsvAnkXESO">
+                                <div class="_3notzMjxQtogi11XHZMYXI _3VcyYP_egkOaX_rJ1e_SQk WishlistButton">
+                                  <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 100">
+                                    <polygon stroke="currentColor" fill="none" points="50 4.7 61.1 38.9 97.2 38.9 68 60.1 79.2 94.4 50 73.2 20.8 94.4 32 60.1 2.8 38.9 38.9 38.9 50 4.7" stroke-linejoin="round" stroke-width="5"></polygon>
+                                  </svg>
+                                  <div class="VI5mZtnq0CL7fw_2mxhfm">Add to wishlist</div>
+                                </div>
+                                <div class="_3rrH9dPdtHVRMzAEw82AId">
+                                  <a href="https://store.steampowered.com/app/2378900/The_Coffin_of_Andy_and_Leyley?snr=1_2108_9__2107" target="_blank">
+                                    <div class="_2ekpT6PjwtcFaT4jLQehUK StoreSaleWidgetTitle">The Coffin of Andy and Leyley</div>
+                                  </a>
+                                </div>
+                                <div class="_2bkP-3b7dvr0a_qPdZEfHY">
+                                  <a href="https://store.steampowered.com/tags/en/Psychological?snr=1_2108_9__2107" target="_blank" class="_33yqka47vWurNqhnhLJb_m WidgetTag _3FJnZuxmPA_MjxsF8BQQ5L Focusable" rel="noopener noreferrer" tabindex="0">Psychological</a>
+                                  <a href="https://store.steampowered.com/tags/en/Dark%20Comedy?snr=1_2108_9__2107" target="_blank" class="_33yqka47vWurNqhnhLJb_m WidgetTag _3FJnZuxmPA_MjxsF8BQQ5L Focusable" rel="noopener noreferrer" tabindex="0">Dark Comedy</a>
+                                  <a href="https://store.steampowered.com/tags/en/Story%20Rich?snr=1_2108_9__2107" target="_blank" class="_33yqka47vWurNqhnhLJb_m WidgetTag _3FJnZuxmPA_MjxsF8BQQ5L Focusable" rel="noopener noreferrer" tabindex="0">Story Rich</a>
+                                  <a href="https://store.steampowered.com/tags/en/Multiple%20Endings?snr=1_2108_9__2107" target="_blank" class="_33yqka47vWurNqhnhLJb_m WidgetTag _3FJnZuxmPA_MjxsF8BQQ5L Focusable" rel="noopener noreferrer" tabindex="0">Multiple Endings</a>
+                                  <a href="https://store.steampowered.com/tags/en/Dark?snr=1_2108_9__2107" target="_blank" class="_33yqka47vWurNqhnhLJb_m WidgetTag _3FJnZuxmPA_MjxsF8BQQ5L Focusable" rel="noopener noreferrer" tabindex="0">Dark</a>
+                                  <a href="https://store.steampowered.com/tags/en/Choices%20Matter?snr=1_2108_9__2107" target="_blank" class="_33yqka47vWurNqhnhLJb_m WidgetTag _3FJnZuxmPA_MjxsF8BQQ5L Focusable" rel="noopener noreferrer" tabindex="0">Choices Matter</a>
+                                  <a href="https://store.steampowered.com/tags/en/Visual%20Novel?snr=1_2108_9__2107" target="_blank" class="_33yqka47vWurNqhnhLJb_m WidgetTag _3FJnZuxmPA_MjxsF8BQQ5L Focusable" rel="noopener noreferrer" tabindex="0">Visual Novel</a>
+                                  <a href="https://store.steampowered.com/tags/en/Singleplayer?snr=1_2108_9__2107" target="_blank" class="_33yqka47vWurNqhnhLJb_m WidgetTag _3FJnZuxmPA_MjxsF8BQQ5L Focusable" rel="noopener noreferrer" tabindex="0">Singleplayer</a>
+                                  <a href="https://store.steampowered.com/tags/en/Horror?snr=1_2108_9__2107" target="_blank" class="_33yqka47vWurNqhnhLJb_m WidgetTag _3FJnZuxmPA_MjxsF8BQQ5L Focusable" rel="noopener noreferrer" tabindex="0">Horror</a>
+                                  <a href="https://store.steampowered.com/tags/en/Demons?snr=1_2108_9__2107" target="_blank" class="_33yqka47vWurNqhnhLJb_m WidgetTag _3FJnZuxmPA_MjxsF8BQQ5L Focusable" rel="noopener noreferrer" tabindex="0">Demons</a>
+                                  <a href="https://store.steampowered.com/tags/en/Drama?snr=1_2108_9__2107" target="_blank" class="_33yqka47vWurNqhnhLJb_m WidgetTag _3FJnZuxmPA_MjxsF8BQQ5L Focusable" rel="noopener noreferrer" tabindex="0">Drama</a>
+                                  <a href="https://store.steampowered.com/tags/en/RPGMaker?snr=1_2108_9__2107" target="_blank" class="_33yqka47vWurNqhnhLJb_m WidgetTag _3FJnZuxmPA_MjxsF8BQQ5L Focusable" rel="noopener noreferrer" tabindex="0">RPGMaker</a>
+                                  <a href="https://store.steampowered.com/tags/en/Hand-drawn?snr=1_2108_9__2107" target="_blank" class="_33yqka47vWurNqhnhLJb_m WidgetTag _3FJnZuxmPA_MjxsF8BQQ5L Focusable" rel="noopener noreferrer" tabindex="0">Hand-drawn</a>
+                                  <a href="https://store.steampowered.com/tags/en/Adventure?snr=1_2108_9__2107" target="_blank" class="_33yqka47vWurNqhnhLJb_m WidgetTag _3FJnZuxmPA_MjxsF8BQQ5L Focusable" rel="noopener noreferrer" tabindex="0">Adventure</a>
+                                  <a href="https://store.steampowered.com/tags/en/Puzzle?snr=1_2108_9__2107" target="_blank" class="_33yqka47vWurNqhnhLJb_m WidgetTag _3FJnZuxmPA_MjxsF8BQQ5L Focusable" rel="noopener noreferrer" tabindex="0">Puzzle</a>
+                                  <a href="https://store.steampowered.com/tags/en/Female%20Protagonist?snr=1_2108_9__2107" target="_blank" class="_33yqka47vWurNqhnhLJb_m WidgetTag _3FJnZuxmPA_MjxsF8BQQ5L Focusable" rel="noopener noreferrer" tabindex="0">Female Protagonist</a>
+                                  <a href="https://store.steampowered.com/tags/en/RPG?snr=1_2108_9__2107" target="_blank" class="_33yqka47vWurNqhnhLJb_m WidgetTag _3FJnZuxmPA_MjxsF8BQQ5L Focusable" rel="noopener noreferrer" tabindex="0">RPG</a>
+                                  <a href="https://store.steampowered.com/tags/en/Early%20Access?snr=1_2108_9__2107" target="_blank" class="_33yqka47vWurNqhnhLJb_m WidgetTag _3FJnZuxmPA_MjxsF8BQQ5L Focusable" rel="noopener noreferrer" tabindex="0">Early Access</a>
+                                  <a href="https://store.steampowered.com/tags/en/Stylized?snr=1_2108_9__2107" target="_blank" class="_33yqka47vWurNqhnhLJb_m WidgetTag _3FJnZuxmPA_MjxsF8BQQ5L Focusable" rel="noopener noreferrer" tabindex="0">Stylized</a>
+                                  <a href="https://store.steampowered.com/tags/en/Exploration?snr=1_2108_9__2107" target="_blank" class="_33yqka47vWurNqhnhLJb_m WidgetTag _3FJnZuxmPA_MjxsF8BQQ5L Focusable" rel="noopener noreferrer" tabindex="0">Exploration</a>
+                                </div>
+                                <div class="_3a6HRK-P6LK0-pxRKXYgyP">
+                                  <div class="_1qvTFgmehUzbdYM9cw0eS7">Oct 13, 2023</div>
+                                  <span class="_2bCf9u4rlC8De687HY6wnh">
+                                    <span title="Windows">
+                                      <svg version="1.1" xmlns="http://www.w3.org/2000/svg" x="0px" y="0px" class="SVGIcon_Button SVGIcon_WindowsLogo" width="100%" height="100%" viewBox="0 0 128 128" enable-background="new 0 0 128 128" aria-label="Windows">
+                                        <rect fill="currentColor" width="60.834" height="60.835"></rect>
+                                        <rect x="67.165" fill="currentColor" width="60.835" height="60.835"></rect>
+                                        <rect y="67.164" fill="currentColor" width="60.834" height="60.836"></rect>
+                                        <rect x="67.165" y="67.164" fill="currentColor" width="60.835" height="60.836"></rect>
+                                      </svg>
+                                    </span>
+                                  </span>
+                                </div>
+                                <div class="_3AsE5JhqLAiICKUYvZLpap StoreSaleWidgetShortDesc">If it wasn't already obvious, this devlog is totally FAKE and was made as a joke. Happy Halloween!</div>
+                                <div class="kW6m4Sjqacp5hykrj5LEo">
+                                  <div class="_1JuIpzMtS7-xZrnUmEQ4my">
+                                    <div class="_2s-O5T3qJJYR2AUq4b9jIN StoreSalePriceWidgetContainer _1g0B-RjwkUV0_MDURgy3Bi Discounted" aria-label="30% off. $11.99 normally, discounted to $8.39">
+                                      <div class="cnkoFkzVCby40gJ0jGGS4">-100%</div>
+                                      <div class="_3NhLu7mTdty7JufpSpz6Re">
+                                        <div class="_3fFFsvII7Y2KXNLDk_krOW">$11.99</div>
+                                        <div class="_3j4dI1yA7cRfCvK8h406OB">$0.00</div>
+                                      </div>
+                                    </div>
+                                  </div>
+                                </div>
+                                <div class="MvLJDXjfbme8Uw3OERaCb">
+                                  <div class="_2oW_y7Mm3ihf1XQ0C1VWhx CapsuleImageCtn">
+                                    <img class="_2eQ4mkpf4IzUp1e9NnM2Wr" loading="lazy" width="460" height="215" alt="The Coffin of Andy and Leyley" src="index_files/header.jpg">
+                                  </div>
+                                </div>
+                              </div>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="miniprofile_hover" style="display: none;">
+      <div class="shadow_ul"></div>
+      <div class="shadow_top"></div>
+      <div class="shadow_ur"></div>
+      <div class="shadow_left"></div>
+      <div class="shadow_right"></div>
+      <div class="shadow_bl"></div>
+      <div class="shadow_bottom"></div>
+      <div class="shadow_br"></div>
+      <div class="miniprofile_hover_inner shadow_content"></div>
+    </div>
+    <div class="miniprofile_hover" style="display: none;">
+      <div class="shadow_ul"></div>
+      <div class="shadow_top"></div>
+      <div class="shadow_ur"></div>
+      <div class="shadow_left"></div>
+      <div class="shadow_right"></div>
+      <div class="shadow_bl"></div>
+      <div class="shadow_bottom"></div>
+      <div class="shadow_br"></div>
+      <div class="miniprofile_hover_inner shadow_content"></div>
+    </div>
+    <div style="display: none;" class="FullModalOverlay">
+      <div class="ModalOverlayContent ModalOverlayBackground"></div>
+    </div>
+    <div style="display: none;" class="FullModalOverlay">
+      <div class="ModalOverlayContent ModalOverlayBackground"></div>
+    </div>
+  </body>
+</html>
